@@ -1,0 +1,36 @@
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="rootPane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.MainMenu" prefHeight="400.0" prefWidth="600.0">
+    <MenuButton fx:id="loginLabel" layoutX="445.0" layoutY="0.0" prefHeight="43.0" prefWidth="155.0" >
+        <items>
+            <MenuItem text="Profil" onAction="#profil"/>
+            <MenuItem text="Wyloguj" onAction="#wyloguj"  />
+        </items>
+        <font>
+            <Font size="18.0" />
+        </font>
+    </MenuButton>
+
+    <Button layoutX="0.0" layoutY="0.0" onAction="#kalkulatorPane" prefHeight="130.0" prefWidth="440.0" text="Kalkulator">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Button>
+    <Button layoutX="0.0" layoutY="135.0" onAction="#wzoryPane" prefHeight="130.0" prefWidth="440.0" text="Wzory">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Button>
+    <Button layoutX="0.0" layoutY="270.0" onAction="#funkcjePane" prefHeight="130.0" prefWidth="440.0" text="Funkcje">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Button>
+</AnchorPane>

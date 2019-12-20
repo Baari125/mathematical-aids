@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.image.ImageView?>
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Wzory" prefHeight="400.0" prefWidth="600.0">
+    <Button layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="150.0" text="Kwadrat" onAction="#kwadrat"/>
+    <Button layoutX="10.0" layoutY="40.0" prefHeight="25.0" prefWidth="150.0" text="Prostokąt" onAction="#prostokat"/>
+    <Button layoutX="10.0" layoutY="70.0" prefHeight="25.0" prefWidth="150.0" text="Trapez" onAction="#trapez"/>
+    <Button layoutX="10.0" layoutY="100.0" prefHeight="25.0" prefWidth="150.0" text="Równoległobok" onAction="#rownoleglobok"/>
+    <Button layoutX="10.0" layoutY="130.0" prefHeight="25.0" prefWidth="150.0" text="Romb" onAction="#romb"/>
+    <Button layoutX="10.0" layoutY="160.0" prefHeight="25.0" prefWidth="150.0" text="Deltoid" onAction="#deltoid"/>
+    <Button layoutX="10.0" layoutY="190.0" prefHeight="25.0" prefWidth="150.0" text="Trójkąt" onAction="#trojkat"/>
+    <Button layoutX="10.0" layoutY="220.0" prefHeight="25.0" prefWidth="150.0" text="Koło" onAction="#kolo"/>
+
+    <Button layoutX="10.0" layoutY="250.0" prefHeight="25.0" prefWidth="150.0" text="Prostopadłościan" onAction="#prostopadloscian"/>
+    <Button layoutX="10.0" layoutY="280.0" prefHeight="25.0" prefWidth="150.0" text="Ostrosłup" onAction="#ostroslup"/>
+    <Button layoutX="10.0" layoutY="310.0" prefHeight="25.0" prefWidth="150.0" text="Walec" onAction="#walec"/>
+    <Button layoutX="10.0" layoutY="340.0" prefHeight="25.0" prefWidth="150.0" text="Stożek" onAction="#stozek"/>
+    <Button layoutX="10.0" layoutY="370.0" prefHeight="25.0" prefWidth="150.0" text="Kula" onAction="#kula"/>
+
+    <Rectangle layoutX="180.0" layoutY="10.0" height="380.0" width="400.0" fill="white" />
+    <Label fx:id="figura" layoutX="320.0" layoutY="20.0" >
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+
+    <Label fx:id="poleFigury" layoutX="220.0" layoutY="60.0" >
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label fx:id="objetoscFigury" layoutX="400.0" layoutY="60.0" >
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+
+    <ImageView fx:id="obraz" layoutX="180.0" layoutY="100" />
+
+
+</AnchorPane>

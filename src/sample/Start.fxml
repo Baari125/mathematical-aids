@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.shape.Line?>
+<AnchorPane id="rootPane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.MainController" prefHeight="400.0" prefWidth="600.0">
+
+    <Label layoutX="50.0" layoutY="30.0" text="Zaawansowana pomoc matematyczna" textFill="#004ecc">
+        <font>
+            <Font name="Kefa Regular" size="30.0" />
+        </font>
+    </Label>
+
+    <Label layoutX="55.0" layoutY="150.0" text="Korzystaj z rozszerzonej" textFill="#004ecc" >
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="90.0" layoutY="190.0" text="wersji programu" textFill="#004ecc" >
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+    <Button layoutX="90.0" layoutY="250.0" onAction="#loginPane" prefHeight="43.0" prefWidth="136.0" text="Zaloguj się">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Button>
+
+    <Line startX="300" startY="100" endX="300" endY="360" />
+
+    <Label layoutX="350.0" layoutY="150.0" text="Wypróbuj podstawowe" textFill="#004ecc" >
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="375.0" layoutY="190.0" text="funkcje programu" textFill="#004ecc" >
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+    <Button layoutX="390.0" layoutY="250.0" onAction="#trialMenu" prefHeight="43.0" prefWidth="136.0" text="Rozpocznij">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Button>
+</AnchorPane>
